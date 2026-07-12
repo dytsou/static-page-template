@@ -1,0 +1,9 @@
+{
+  "ownerRepo": "dytsou/YOUR_PAGE_REPO",
+  "canonicalPath": "/your-slug/",
+  "canonicalUrl": "https://dy.tsou.me/your-slug/",
+  "previewUrl": "https://your-slug.tsou.me",
+  "pagesProject": "dy-tsou-your-slug",
+  "outputDir": "dist",
+  "basePath": "/"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@dytsou/static-page-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "packageManager": "pnpm@10.28.0"
+}
