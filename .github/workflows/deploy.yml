@@ -33,8 +33,10 @@ jobs:
 
   deploy:
     needs: [checks]
+    # Skip on the template repo itself (placeholder contract); runs on repos created from it.
     if: |
       always() &&
+      github.repository != 'dytsou/static-page-template' &&
       (
         (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success') ||
         (github.event_name == 'workflow_dispatch' && needs.checks.result == 'success')
